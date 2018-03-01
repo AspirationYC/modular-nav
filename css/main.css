@@ -16,3 +16,38 @@ html {
 body {
   margin: 0;
 }
+
+header {
+  background-color: #e2e2e2;
+}
+
+a {
+  display: block;
+  color: #000;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #0074d9;
+}
+
+li {
+  display: inline-block;
+  color: #000;
+}
+.logo, .links {
+  text-align: center;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .logo {
+    text-align: left;
+
+  }
+
+  .links {
+    text-align: right;
+  }
+}
