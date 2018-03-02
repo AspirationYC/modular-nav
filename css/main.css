@@ -7,6 +7,11 @@
 html {
   box-sizing: border-box;
   font-family: sans-serif;
+
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 *, *::before, *::after {
@@ -22,20 +27,21 @@ header {
 }
 
 a {
-  display: block;
-  color: #000;
+  color: #0074d9;
   list-style-type: none;
   text-decoration: none;
 }
 
 a:hover {
   background-color: #0074d9;
+  color: #fff;
 }
 
 li {
   display: inline-block;
-  color: #000;
+  color: #0074d9;
 }
+
 .logo, .links {
   text-align: center;
 }
@@ -44,10 +50,10 @@ li {
 
   .logo {
     text-align: left;
-
   }
 
   .links {
     text-align: right;
   }
+
 }
